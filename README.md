@@ -3,7 +3,7 @@ MDM Image Viewer is a managed screensaver App for tvOS intended to be used with 
 
 ### Installation
 
-A build of MDM Image Viewer is available for download from the [tvOS App Store](https://its.nebraska.edu). The current version should be deployed with App Configuration Preferences from Jamf Pro.
+A build of MDM Image Viewer is available for download from the [tvOS App Store](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1439027089&mt=8). The current version should be deployed with App Configuration Preferences from Jamf Pro.
 
 
 
@@ -41,13 +41,13 @@ The CSV file liked in the managed preferences should show values including a hea
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Test Image | https://example.com/image.png | 0:00:10 | 1:00:00 | 1/1/18 0:00 | 12/31/99 23:59 | yes |
 
-**Name** - Name of the image. This value is strictly for reference.
-**URL** - Web location of the image file.
-**Duration** - Length of time to display the particular image in **H:MM:SS** format.
-**UpdateInterval** - *Currently Unused*
-**StartOn** - Date and time to begin showing the specified image in the playlist in **M/d/yy H:mm** format.
-**EndBy** - Date and time to stop showing the specified image in the playlist in **M/d/yy H:mm** format.
-**Cache** - *Currently Unused*
+**Name** - Name of the image. This value is strictly for reference. <br />
+**URL** - Web location of the image file. <br />
+**Duration** - Length of time to display the particular image in **H:MM:SS** format. <br />
+**UpdateInterval** - *Currently Unused* <br />
+**StartOn** - Date and time to begin showing the specified image in the playlist in **M/d/yy H:mm** format. <br />
+**EndBy** - Date and time to stop showing the specified image in the playlist in **M/d/yy H:mm** format. <br />
+**Cache** - *Currently Unused* <br />
 
 ## Errors and bugs
 
