@@ -36,9 +36,10 @@ Time (in seconds) between checks for updates in the CSV file. The default time i
 
 ### CSV Image Playlist Settings Example
 The CSV file liked in the managed preferences should show values including a header and in the order listed below. The "UpdateInterval" and "Cache" values are not currently used but should still be included within the CSV file.
-Name | URL | Duration | UpdateInterval | StartOn | EndBy | Cache
-:--- | :--- | :--- | :--- | :--- | :--- | :---
-Test Image | https://example.com/image.png | 0:00:10 | 1:00:00 | 1/1/18 0:00 | 12/31/99 23:59 | yes
+
+| Name | URL | Duration | UpdateInterval | StartOn | EndBy | Cache |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Test Image | https://example.com/image.png | 0:00:10 | 1:00:00 | 1/1/18 0:00 | 12/31/99 23:59 | yes |
 
 **Name** - Name of the image. This value is strictly for reference.
 **URL** - Web location of the image file.
