@@ -1,6 +1,14 @@
 # MDM Image Viewer
-MDM Image Viewer is a managed screensaver App for tvOS intended to be used with Jamf Pro managed app configuration.
+MDM Image Viewer is a managed screensaver App for tvOS and an alternative to Conference Room Display only mode. 
 
+With MDM Image Viewer you can:
+* Run the App in single App mode and automate your processes for a zero-touch deployment.
+* Give content curators access to managing the background image playlist.
+* Allow your Apple TV to double as digital signage and an AirPlay device.
+
+It is currently tested and working with Jamf Pro but should also work with other MDM providers.
+
+##### Sample Screenshot:
 <img src="https://github.com/qharouff/mdm-image-viewer/blob/master/Assets/screenshot_example.png?raw=true" width="650">
 
 
