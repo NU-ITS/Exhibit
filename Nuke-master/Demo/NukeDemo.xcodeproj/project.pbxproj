@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3ADAA32087D23C00FFA275 /* progressive.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3ADAA12087D23C00FFA275 /* progressive.jpeg */; };
+		0C3ADAA42087D23C00FFA275 /* baseline.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3ADAA22087D23C00FFA275 /* baseline.jpeg */; };
+		0CBBB09B20A8116C007474D2 /* AnimatedImageUsingVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBBB09A20A8116C007474D2 /* AnimatedImageUsingVideoViewController.swift */; };
+		0CCC1883209EDAF9003D7172 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCC1882209EDAF9003D7172 /* Images.xcassets */; };
+		0CCC1894209EDCCF003D7172 /* BasicDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC1887209EDCCF003D7172 /* BasicDemoViewController.swift */; };
+		0CCC1895209EDCCF003D7172 /* PreheatingDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC1888209EDCCF003D7172 /* PreheatingDemoViewController.swift */; };
+		0CCC1896209EDCCF003D7172 /* RateLimiterDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC1889209EDCCF003D7172 /* RateLimiterDemoViewController.swift */; };
+		0CCC1897209EDCCF003D7172 /* CustomCacheDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC188A209EDCCF003D7172 /* CustomCacheDemoViewController.swift */; };
+		0CCC1898209EDCCF003D7172 /* DataCachingDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC188B209EDCCF003D7172 /* DataCachingDemoViewController.swift */; };
+		0CCC1899209EDCCF003D7172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC188D209EDCCF003D7172 /* AppDelegate.swift */; };
+		0CCC189A209EDCCF003D7172 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC188F209EDCCF003D7172 /* Utilities.swift */; };
+		0CCC189B209EDCCF003D7172 /* SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC1890209EDCCF003D7172 /* SHA1.m */; };
+		0CCC189C209EDCCF003D7172 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC1892209EDCCF003D7172 /* MenuViewController.swift */; };
+		0CCC189D209EDCCF003D7172 /* ProgressiveDecodingDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC1893209EDCCF003D7172 /* ProgressiveDecodingDemoViewController.swift */; };
+		0CCC18A3209EE0A6003D7172 /* AnimatedImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC18A2209EE0A6003D7172 /* AnimatedImageViewController.swift */; };
+		0CCC18A8209EE341003D7172 /* AlamofireIntegrationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC18A7209EE341003D7172 /* AlamofireIntegrationDemoViewController.swift */; };
+		0CE5F687215688590046609F /* PrefetchingDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5F686215688590046609F /* PrefetchingDemoViewController.swift */; };
+		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
+		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		9EC7419D50A380D48740AA49 /* Pods_NukeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF983DC45A1ABD593DD5845 /* Pods_NukeDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C3ADAA12087D23C00FFA275 /* progressive.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = progressive.jpeg; sourceTree = "<group>"; };
+		0C3ADAA22087D23C00FFA275 /* baseline.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baseline.jpeg; sourceTree = "<group>"; };
+		0CBBB09A20A8116C007474D2 /* AnimatedImageUsingVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImageUsingVideoViewController.swift; sourceTree = "<group>"; };
+		0CCC1882209EDAF9003D7172 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0CCC1884209EDC01003D7172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CCC1887209EDCCF003D7172 /* BasicDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicDemoViewController.swift; sourceTree = "<group>"; };
+		0CCC1888209EDCCF003D7172 /* PreheatingDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreheatingDemoViewController.swift; sourceTree = "<group>"; };
+		0CCC1889209EDCCF003D7172 /* RateLimiterDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateLimiterDemoViewController.swift; sourceTree = "<group>"; };
+		0CCC188A209EDCCF003D7172 /* CustomCacheDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCacheDemoViewController.swift; sourceTree = "<group>"; };
+		0CCC188B209EDCCF003D7172 /* DataCachingDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCachingDemoViewController.swift; sourceTree = "<group>"; };
+		0CCC188C209EDCCF003D7172 /* NukeDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NukeDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		0CCC188D209EDCCF003D7172 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CCC188F209EDCCF003D7172 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		0CCC1890209EDCCF003D7172 /* SHA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHA1.m; sourceTree = "<group>"; };
+		0CCC1891209EDCCF003D7172 /* SHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHA1.h; sourceTree = "<group>"; };
+		0CCC1892209EDCCF003D7172 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0CCC1893209EDCCF003D7172 /* ProgressiveDecodingDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressiveDecodingDemoViewController.swift; sourceTree = "<group>"; };
+		0CCC18A2209EE0A6003D7172 /* AnimatedImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImageViewController.swift; sourceTree = "<group>"; };
+		0CCC18A7209EE341003D7172 /* AlamofireIntegrationDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireIntegrationDemoViewController.swift; sourceTree = "<group>"; };
+		0CE5F686215688590046609F /* PrefetchingDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefetchingDemoViewController.swift; sourceTree = "<group>"; };
+		4AF983DC45A1ABD593DD5845 /* Pods_NukeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NukeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C2814B2512FDCB2138FDF0 /* Pods-NukeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NukeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NukeDemo/Pods-NukeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* NukeDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NukeDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D41C16807F95F83FB63DA311 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF69419A369F4C9AE71D244F /* Pods-NukeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NukeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NukeDemo/Pods-NukeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC7419D50A380D48740AA49 /* Pods_NukeDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C3ADAA02087D23C00FFA275 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0CCC1885209EDC40003D7172 /* IB */,
+				0CCC1884209EDC01003D7172 /* Info.plist */,
+				0CCC1882209EDAF9003D7172 /* Images.xcassets */,
+				0C3ADAA12087D23C00FFA275 /* progressive.jpeg */,
+				0C3ADAA22087D23C00FFA275 /* baseline.jpeg */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		0CCC1885209EDC40003D7172 /* IB */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+			);
+			path = IB;
+			sourceTree = "<group>";
+		};
+		0CCC1886209EDCCF003D7172 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0CCC188C209EDCCF003D7172 /* NukeDemo-Bridging-Header.h */,
+				0CCC188D209EDCCF003D7172 /* AppDelegate.swift */,
+				0CCC1892209EDCCF003D7172 /* MenuViewController.swift */,
+				0CCC1887209EDCCF003D7172 /* BasicDemoViewController.swift */,
+				0CCC18A2209EE0A6003D7172 /* AnimatedImageViewController.swift */,
+				0CBBB09A20A8116C007474D2 /* AnimatedImageUsingVideoViewController.swift */,
+				0CCC18A7209EE341003D7172 /* AlamofireIntegrationDemoViewController.swift */,
+				0CCC1888209EDCCF003D7172 /* PreheatingDemoViewController.swift */,
+				0CE5F686215688590046609F /* PrefetchingDemoViewController.swift */,
+				0CCC1889209EDCCF003D7172 /* RateLimiterDemoViewController.swift */,
+				0CCC188A209EDCCF003D7172 /* CustomCacheDemoViewController.swift */,
+				0CCC188B209EDCCF003D7172 /* DataCachingDemoViewController.swift */,
+				0CCC1893209EDCCF003D7172 /* ProgressiveDecodingDemoViewController.swift */,
+				0CCC188E209EDCCF003D7172 /* Helpers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0CCC188E209EDCCF003D7172 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0CCC188F209EDCCF003D7172 /* Utilities.swift */,
+				0CCC1890209EDCCF003D7172 /* SHA1.m */,
+				0CCC1891209EDCCF003D7172 /* SHA1.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				0CCC1886209EDCCF003D7172 /* Sources */,
+				0C3ADAA02087D23C00FFA275 /* Resources */,
+				607FACD11AFB9204008FA782 /* Products */,
+				B268730C38EF50AF5D1A33EC /* Frameworks */,
+				8C07E554AAC95C57AC7F3F40 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		607FACD11AFB9204008FA782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD01AFB9204008FA782 /* NukeDemo_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C07E554AAC95C57AC7F3F40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF69419A369F4C9AE71D244F /* Pods-NukeDemo.debug.xcconfig */,
+				52C2814B2512FDCB2138FDF0 /* Pods-NukeDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B268730C38EF50AF5D1A33EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D41C16807F95F83FB63DA311 /* Pods.framework */,
+				4AF983DC45A1ABD593DD5845 /* Pods_NukeDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607FACCF1AFB9204008FA782 /* NukeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NukeDemo" */;
+			buildPhases = (
+				E842036E61052F9D374CC26D /* [CP] Check Pods Manifest.lock */,
+				607FACCC1AFB9204008FA782 /* Sources */,
+				607FACCD1AFB9204008FA782 /* Frameworks */,
+				607FACCE1AFB9204008FA782 /* Resources */,
+				11ED208D17BAD37B8C2B94DC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NukeDemo;
+			productName = Nuke;
+			productReference = 607FACD01AFB9204008FA782 /* NukeDemo_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607FACC81AFB9204008FA782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = CocoaPods;
+				TargetAttributes = {
+					607FACCF1AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = NR8DLKJ7E6;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "NukeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 607FACC71AFB9204008FA782;
+			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607FACCF1AFB9204008FA782 /* NukeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607FACCE1AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				0CCC1883209EDAF9003D7172 /* Images.xcassets in Resources */,
+				0C3ADAA32087D23C00FFA275 /* progressive.jpeg in Resources */,
+				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				0C3ADAA42087D23C00FFA275 /* baseline.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11ED208D17BAD37B8C2B94DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NukeDemo/Pods-NukeDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DFCache/DFCache.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+				"${BUILT_PRODUCTS_DIR}/Preheat/Preheat.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DFCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Preheat.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NukeDemo/Pods-NukeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E842036E61052F9D374CC26D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NukeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607FACCC1AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CCC18A3209EE0A6003D7172 /* AnimatedImageViewController.swift in Sources */,
+				0CCC1899209EDCCF003D7172 /* AppDelegate.swift in Sources */,
+				0CCC1895209EDCCF003D7172 /* PreheatingDemoViewController.swift in Sources */,
+				0CCC189A209EDCCF003D7172 /* Utilities.swift in Sources */,
+				0CCC1897209EDCCF003D7172 /* CustomCacheDemoViewController.swift in Sources */,
+				0CE5F687215688590046609F /* PrefetchingDemoViewController.swift in Sources */,
+				0CCC189C209EDCCF003D7172 /* MenuViewController.swift in Sources */,
+				0CCC1896209EDCCF003D7172 /* RateLimiterDemoViewController.swift in Sources */,
+				0CCC18A8209EE341003D7172 /* AlamofireIntegrationDemoViewController.swift in Sources */,
+				0CCC1898209EDCCF003D7172 /* DataCachingDemoViewController.swift in Sources */,
+				0CBBB09B20A8116C007474D2 /* AnimatedImageUsingVideoViewController.swift in Sources */,
+				0CCC189B209EDCCF003D7172 /* SHA1.m in Sources */,
+				0CCC189D209EDCCF003D7172 /* ProgressiveDecodingDemoViewController.swift in Sources */,
+				0CCC1894209EDCCF003D7172 /* BasicDemoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDA1AFB9204008FA782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDF1AFB9204008FA782 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607FACED1AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		607FACEE1AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607FACF01AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF69419A369F4C9AE71D244F /* Pods-NukeDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = NR8DLKJ7E6;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = NukeDemo_Example;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/NukeDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		607FACF11AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C2814B2512FDCB2138FDF0 /* Pods-NukeDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = NR8DLKJ7E6;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = NukeDemo_Example;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/NukeDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "NukeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACED1AFB9204008FA782 /* Debug */,
+				607FACEE1AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NukeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF01AFB9204008FA782 /* Debug */,
+				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+}
