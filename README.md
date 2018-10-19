@@ -1,9 +1,10 @@
 # MDM Image Viewer
-MDM Image Viewer is a managed screensaver App for tvOS and an alternative to Conference Room Display only mode. 
 
 <p align="center">
   <img width="400" height="261" src="https://github.com/NU-ITS/mdm-image-viewer/blob/master/Assets/logo.png?raw=true">
 </p>
+
+MDM Image Viewer is a managed screensaver App for tvOS and an alternative to Conference Room Display only mode. 
 
 With MDM Image Viewer you can:
 * Run the App in single App mode and automate your processes for a zero-touch deployment.
