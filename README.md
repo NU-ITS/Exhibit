@@ -23,17 +23,21 @@ A build of MDM Image Viewer is available for download from the [tvOS App Store](
 
 
 
-### Managed App Configuration Preferences
-App configuration Preferences are currently required to load the CSV file location through the "edu.nebraska.ImageViewer.dataURL" preferences key. All available keys are shown here:
+### Managed App Configuration Preferences <br />
+App configuration Preferences are currently required to load the CSV file location through the "edu.nebraska.ImageViewer.dataURL" preferences key. All available keys are shown here: <br />
 
-**edu.nebraska.ImageViewer.dataURL** (required)
-URL of the CSV file containing image information. There is no default option for this key and the App will not function as built without this value loaded.
-**edu.nebraska.ImageViewer.imageTimer** (optional)
-Time (in seconds) of the image timer default. Image display time length is specified in the CSV file but will default to this option if nothing is entered in the file.
-**edu.nebraska.ImageViewer.airplayViewTimer** (optional)
-Time (in seconds) between movements of the AirPlay box. The default time is set to 33 seconds.
-**edu.nebraska.ImageViewer.dataCheckTimer** (optional)
-Time (in seconds) between checks for updates in the CSV file. The default time is set to 180 seconds.
+**edu.nebraska.ImageViewer.dataURL** (required) <br />
+URL of the CSV file containing image information. There is no default option for this key and the App will not function as built without this value loaded. <br />
+**edu.nebraska.ImageViewer.imageTimer** (optional) <br />
+Time (in seconds) of the image timer default. Image display time length is specified in the CSV file but will default to this option if nothing is entered in the file. <br />
+**edu.nebraska.ImageViewer.airplayViewHide** (optional) <br />
+Boolean value set to false be default, override with a "true" value to hide the floating AirPlay box. <br />
+**edu.nebraska.ImageViewer.airplayViewTimer** (optional) <br />
+Time (in seconds) between movements of the AirPlay box. The default time is set to 33 seconds. <br />
+**edu.nebraska.ImageViewer.dataCheckTimer** (optional) <br />
+Time (in seconds) between checks for updates in the CSV file. The default time is set to 180 seconds. <br />
+**edu.nebraska.ImageViewer.defaultBackground** (optional) <br />
+This value can be set to "DefaultBackgroundNoLogo" in order to remove the MDM Image Viewer logo from the default background image. <br />
 
 
 *Sample configuration preferences:*
