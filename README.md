@@ -69,6 +69,9 @@ The CSV file liked in the managed preferences should show values including a hea
 **EndBy** - Date and time to stop showing the specified image in the playlist in **M/d/yy H:mm** format. <br />
 **Cache** - *Currently Unused* <br />
 
+## Suggested Configuration
+It is reccomended that you lock your Apple TV into single app mode with MDM Image Viewer. Images should not be larger than 3840px × 2160px. Loading unessisarily large images may cause the App to crash.
+
 ## Errors and bugs
 
 If something is not behaving intuitively, it is a bug and should be reported.
