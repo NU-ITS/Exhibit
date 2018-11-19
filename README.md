@@ -72,6 +72,10 @@ The CSV file liked in the managed preferences should show values including a hea
 ## Suggested Configuration
 It is reccomended that you lock your Apple TV into single app mode with MDM Image Viewer. Images should not be larger than 3840px × 2160px. Loading unessisarily large images may cause the App to crash.
 
+## Contact
+
+Feel free to reach out to Quentin Harouff at qharouff@nebraska.edu with any questions. Or https://github.com/NU-ITS/mdm-image-viewer/issues with any bugs or issues.
+
 ## Errors and bugs
 
 If something is not behaving intuitively, it is a bug and should be reported.
