@@ -37,7 +37,7 @@ Time (in seconds) between movements of the AirPlay box. The default time is set 
 **edu.nebraska.ImageViewer.dataCheckTimer** (optional) <br />
 Time (in seconds) between checks for updates in the CSV file. The default time is set to 180 seconds. <br />
 **edu.nebraska.ImageViewer.defaultBackground** (optional) <br />
-This value can be set to "DefaultBackgroundNoLogo" in order to remove the MDM Image Viewer logo from the default background image. <br />
+This value can be set to "DefaultBackgroundNoLogo" in order to remove the MDM Image Viewer logo from the default background image. <br />**edu.nebraska.ImageViewer.defaultDescription** (optional) <br />Replace the AirPlay description with a custom one. <br />**edu.nebraska.ImageViewer.defaultSubtitle** (optional) <br />Replace the AirPlay subtitle "CHOOSE THIS APPLE TV" with a custom one. <br />
 
 
 *Sample configuration preferences:*
@@ -86,7 +86,7 @@ Help us fix the problem as quickly as possible by following [Mozilla's guideline
 ## Patches and pull requests
 
 Your patches are welcome. Here's our suggested workflow:
- 
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Send us a pull request with a description of your work. Bonus points for topic branches!
