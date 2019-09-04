@@ -55,6 +55,8 @@ var imageTimer: Double = 10
 var airplayViewTimer: Double = 33
 var dataCheckTimer: Double = 180
 var defaultBackground: String = "DefaultBackground"
+var defaultDescription: String = "Wirelessly send what's on your iOS device or computer to this display using AirPlay. Learn more at help.apple.com/appletv."
+var defaultSubtitle: String = "CHOOSE THIS APPLE TV"
 
 // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 // End: Initialize and set defaults
@@ -70,6 +72,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var topView: UIView!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var deviceNameLabel: UILabel!
+    @IBOutlet weak var airplaySubtitle: UILabel!
+    @IBOutlet weak var airplayDescription: UILabel!
     @IBOutlet weak var airplayView: UIView!
     
 
@@ -106,6 +110,8 @@ class ViewController: UIViewController {
         airplayViewTimer = 33
         dataCheckTimer = 180
         defaultBackground = "DefaultBackground"
+        defaultSubtitle = "Wirelessly send what's on your iOS device or computer to this display using AirPlay. Learn more at help.apple.com/appletv."
+        defaultDescription = "CHOOSE THIS APPLE TV"
         
         // Get Managed App Configuration passsed by MDM
         if keyPresentInUserDefaults(key: "edu.nebraska.ImageViewer.dataURL") {
@@ -127,6 +133,15 @@ class ViewController: UIViewController {
         if keyPresentInUserDefaults(key: "edu.nebraska.ImageViewer.defaultBackground") {
             defaultBackground = ManagedAppConfig.shared.getConfigValue(forKey: "edu.nebraska.ImageViewer.defaultBackground") as! String
         }
+        
+        if keyPresentInUserDefaults(key: "edu.nebraska.ImageViewer.defaultSubtitle") {
+            defaultSubtitle = ManagedAppConfig.shared.getConfigValue(forKey: "edu.nebraska.ImageViewer.defaultSubtitle") as! String
+        }
+        
+        if keyPresentInUserDefaults(key: "edu.nebraska.ImageViewer.defaultDescription") {
+            defaultDescription = ManagedAppConfig.shared.getConfigValue(forKey: "edu.nebraska.ImageViewer.defaultDescription") as! String
+        }
+        
         
         print(dataURL)
         print(imageTimer)
@@ -187,6 +202,9 @@ class ViewController: UIViewController {
     func loadGUIConfig() {
         
         deviceNameLabel.text = UIDevice.current.name
+        
+        airplaySubtitle.text = defaultSubtitle
+        airplayDescription.text = defaultDescription
         
         let blurEffect = UIBlurEffect(style: .dark)
         let blurredEffectView = UIVisualEffectView(effect: blurEffect)
