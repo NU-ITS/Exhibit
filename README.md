@@ -51,6 +51,10 @@ This value can be set to "DefaultBackgroundNoLogo" in order to remove the MDM Im
 	<integer>25</integer>
 	<key>edu.nebraska.ImageViewer.dataCheckTimer</key>
 	<integer>600</integer>
+  <key>edu.nebraska.ImageViewer.defaultSubtitle</key>
+	<string>SELECT THIS APPLE TV</string>
+	<key>edu.nebraska.ImageViewer.defaultDescription</key>
+	<string>New AirPlay description</string>
 </dict>
 ```
 
