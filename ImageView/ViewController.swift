@@ -83,6 +83,7 @@ class ViewController: UIViewController {
 
         dateFormatter.dateFormat = "M/d/yy H:mm"
         loadInputRecognizer()
+        getManagedAppConfiguration()
         loadGUIConfig()
         loadImageSelection()
         loadRepeatingFunctions()
