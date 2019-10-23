@@ -52,6 +52,7 @@ var playerData: PlayerData? = nil
 
 var dataURL = "https://unl.box.com/shared/static/b53laudd6bjirftfff5u7c1vtzatnjys.csv"
 var imageTimer: Double = 10
+var disableAirplayBoxMovement: Bool = false
 var airplayViewTimer: Double = 33
 var dataCheckTimer: Double = 180
 var defaultBackground: String = "DefaultBackground"
@@ -103,6 +104,7 @@ class ViewController: UIViewController {
         // Restore Defualts
         dataURL = "https://unl.box.com/shared/static/b53laudd6bjirftfff5u7c1vtzatnjys.csv"
         imageTimer = 10
+        disableAirplayBoxMovement = false
         airplayViewTimer = 33
         dataCheckTimer = 180
         defaultBackground = "DefaultBackground"
@@ -114,6 +116,10 @@ class ViewController: UIViewController {
         
         if keyPresentInUserDefaults(key: "edu.nebraska.ImageViewer.imageTimer") {
             imageTimer = ManagedAppConfig.shared.getConfigValue(forKey: "edu.nebraska.ImageViewer.imageTimer") as! Double
+        }
+        
+        if keyPresentInUserDefaults(key: "edu.nebraska.ImageViewer.disableAirplayBoxMovement") {
+            disableAirplayBoxMovement = ManagedAppConfig.shared.getConfigValue(forKey: "edu.nebraska.ImageViewer.disableAirplayBoxMovement") as! Bool
         }
         
         if keyPresentInUserDefaults(key: "edu.nebraska.ImageViewer.airplayViewTimer") {
@@ -130,6 +136,7 @@ class ViewController: UIViewController {
         
         print(dataURL)
         print(imageTimer)
+        print(disableAirplayBoxMovement)
         print(airplayViewTimer)
         print(dataCheckTimer)
         print(defaultBackground)
@@ -264,7 +271,9 @@ class ViewController: UIViewController {
             setImageTimer(seconds: 10)
         }
         
+        if disableAirplayBoxMovement != true {
         Timer.scheduledTimer(timeInterval: airplayViewTimer, target: self, selector: #selector(moveAirplayBox), userInfo: nil, repeats: true)
+        }
         
         Timer.scheduledTimer(timeInterval: dataCheckTimer, target: self, selector: #selector(loadImageSelection), userInfo: nil, repeats: true)
         
