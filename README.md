@@ -31,22 +31,24 @@ URL of the CSV file containing image information. There is no default option for
 **edu.nebraska.ImageViewer.imageTimer** (optional) <br />
 Time (in seconds) of the image timer default. Image display time length is specified in the CSV file but will default to this option if nothing is entered in the file. <br />
 **edu.nebraska.ImageViewer.airplayViewHide** (optional) <br />
-Boolean value set to false be default, override with a "true" value to hide the floating AirPlay box. <br />
-**edu.nebraska.ImageViewer.airplayViewTimer** (optional) <br />
+Boolean value set to false be default, override with a "true" value to hide the floating AirPlay box. <br />**edu.nebraska.ImageViewer.disableAirplayBoxMovement** (optional) <br />
+Boolean value set to false be default, override with a "true" value to hide disable the movement of the Airplay box. <br />**edu.nebraska.ImageViewer.airplayViewTimer** (optional) <br />
 Time (in seconds) between movements of the AirPlay box. The default time is set to 33 seconds. <br />
 **edu.nebraska.ImageViewer.dataCheckTimer** (optional) <br />
 Time (in seconds) between checks for updates in the CSV file. The default time is set to 180 seconds. <br />
 **edu.nebraska.ImageViewer.defaultBackground** (optional) <br />
 This value can be set to "DefaultBackgroundNoLogo" in order to remove the MDM Image Viewer logo from the default background image. <br />
 
-
 *Sample configuration preferences:*
+
 ```xml
 <dict>
 	<key>edu.nebraska.ImageViewer.dataURL</key>
 	<string>https://link.to.preferences.csv</string>
 	<key>edu.nebraska.ImageViewer.imageTimer</key>
 	<integer>10</integer>
+  <key>edu.nebraska.ImageViewer.disableAirplayBoxMovement</key>
+	<true/>
 	<key>edu.nebraska.ImageViewer.airplayViewTimer</key>
 	<integer>25</integer>
 	<key>edu.nebraska.ImageViewer.dataCheckTimer</key>
@@ -86,7 +88,7 @@ Help us fix the problem as quickly as possible by following [Mozilla's guideline
 ## Patches and pull requests
 
 Your patches are welcome. Here's our suggested workflow:
- 
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Send us a pull request with a description of your work. Bonus points for topic branches!
