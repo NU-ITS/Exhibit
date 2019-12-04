@@ -6,12 +6,19 @@
 
 MDM Image Viewer is a managed screensaver App for tvOS and an alternative to Conference Room Display only mode. 
 
-With MDM Image Viewer you can:
+**With MDM Image Viewer you can:**
 * Run the App in single App mode and automate your processes for a zero-touch deployment.
 * Give content curators access to managing the background image playlist.
 * Allow your Apple TV to double as digital signage and an AirPlay device.
 
 It is currently tested and working with Jamf Pro but should also work with other MDM providers.
+
+**New Managed App Config Preferences in version 1.0.4 (Dec 4, 2019):**
+* Airplay View Movement: Change the behavior of the Airplay box movement around the screen.
+* Airplay View Position: Set the starting X/Y coordinates of the Airplay box on the screen.
+* Airplay Description Text - Change the text shown under the Airplay logo.
+* Airplay Subtitle Text - Change the text shown under the Airplay Descritpion.
+
 
 ##### Sample Screenshot:
 <img src="https://github.com/qharouff/mdm-image-viewer/blob/master/Assets/screenshot_example.png?raw=true" width="650">
@@ -28,16 +35,42 @@ App configuration Preferences are currently required to load the CSV file locati
 
 **edu.nebraska.ImageViewer.dataURL** (required) <br />
 URL of the CSV file containing image information. There is no default option for this key and the App will not function as built without this value loaded. <br />
+<br />
 **edu.nebraska.ImageViewer.imageTimer** (optional) <br />
 Time (in seconds) of the image timer default. Image display time length is specified in the CSV file but will default to this option if nothing is entered in the file. <br />
+<br />
 **edu.nebraska.ImageViewer.airplayViewHide** (optional) <br />
 Boolean value set to false be default, override with a "true" value to hide the floating AirPlay box. <br />
+<br />
 **edu.nebraska.ImageViewer.airplayViewTimer** (optional) <br />
 Time (in seconds) between movements of the AirPlay box. The default time is set to 33 seconds. <br />
+<br />
 **edu.nebraska.ImageViewer.dataCheckTimer** (optional) <br />
 Time (in seconds) between checks for updates in the CSV file. The default time is set to 180 seconds. <br />
+<br />
 **edu.nebraska.ImageViewer.defaultBackground** (optional) <br />
 This value can be set to "DefaultBackgroundNoLogo" in order to remove the MDM Image Viewer logo from the default background image. <br />
+<br />
+**New in version 1.0.4:** <br />
+<br />
+**edu.nebraska.ImageViewer.airplayDescription** (optional) <br />
+Change the value of the description within the Airplay box. The default value is: "Wirelessly send what's on your iOS device or computer to this display using AirPlay. Learn more at help.apple.com/appletv."  <br />
+<br />
+**edu.nebraska.ImageViewer.airplaySubtitle** (optional) <br />
+Change the value of the subtitle within the Airplay box. The default value is: "CHOOSE THIS APPLE TV"  <br />
+<br />
+**edu.nebraska.ImageViewer.airplayViewPositionX** (optional) <br />
+Set the default position of the Airplay box on the 'X' axis. This should be a value between 0 and 1920. The default value is 1354.  <br />
+<br />
+**edu.nebraska.ImageViewer.airplayViewPositionY** (optional) <br />
+Set the default position of the Airplay box on the 'Y' axis. This should be a value between 0 and 1080. The default value is 638.  <br />
+<br />
+**edu.nebraska.ImageViewer.airplayViewMovement** (optional) <br />
+The the movement behavior of the Airplay box. The following options are applicable:  <br />
+* Fade (Default) - Airiplay box fades out of one location on the screen and into another location.
+* Slide - Airplay box slides from one location on the screen to another.
+* Inactive - Airplay box has no movement and is left in the default position. Use with airplayViewPositionX and airplayViewPositionY to set the inactive locaiton on the screen.
+<br />
 
 
 *Sample configuration preferences:*
@@ -51,6 +84,18 @@ This value can be set to "DefaultBackgroundNoLogo" in order to remove the MDM Im
 	<integer>25</integer>
 	<key>edu.nebraska.ImageViewer.dataCheckTimer</key>
 	<integer>600</integer>
+	<key>edu.nebraska.ImageViewer.airplayViewPositionX</key>
+	<integer>1354</integer>
+	<key>edu.nebraska.ImageViewer.airplayViewPositionY</key>
+	<integer>638</integer>
+	<key>edu.nebraska.ImageViewer.defaultDescription</key>
+	<string>You can cast the content of your iOS, iPadOS or macOS device to this device using Airplay! </string>
+	<key>edu.nebraska.ImageViewer.defaultSubtitle</key>
+	<string>SELECT THIS DEVICE:</string>
+	<key>edu.nebraska.ImageViewer.airplayViewMovement</key>
+	<string>Fade</string>
+	<key>edu.nebraska.ImageViewer.airplayViewHide</key>
+	<false/>
 </dict>
 ```
 
