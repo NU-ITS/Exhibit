@@ -88,9 +88,9 @@ The the movement behavior of the Airplay box. The following options are applicab
 	<integer>1354</integer>
 	<key>edu.nebraska.ImageViewer.airplayViewPositionY</key>
 	<integer>638</integer>
-	<key>edu.nebraska.ImageViewer.defaultDescription</key>
+	<key>edu.nebraska.ImageViewer.airplayDescription</key>
 	<string>You can cast the content of your iOS, iPadOS or macOS device to this device using Airplay! </string>
-	<key>edu.nebraska.ImageViewer.defaultSubtitle</key>
+	<key>edu.nebraska.ImageViewer.airplaySubtitle</key>
 	<string>SELECT THIS DEVICE:</string>
 	<key>edu.nebraska.ImageViewer.airplayViewMovement</key>
 	<string>Fade</string>
