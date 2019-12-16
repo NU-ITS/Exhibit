@@ -1,4 +1,6 @@
-# MDM Image Viewer
+# Exhibit 
+#### (Previously known as "MDM Image Viewer".)
+
 
 <p align="center">
   <img width="400" height="261" src="https://github.com/NU-ITS/mdm-image-viewer/blob/master/Assets/logo.png?raw=true">
