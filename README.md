@@ -1,5 +1,5 @@
 # Exhibit 
-#### (Previously known as "MDM Image Viewer".)
+#### (Previously known as "MDM Image Viewer")
 
 
 <p align="center">
