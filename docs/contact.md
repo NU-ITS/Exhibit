@@ -3,6 +3,9 @@
 This software is provided "AS IS", without warranty of any kind. However, if you are having an issue and would like assistance, please feel free contact me with and I will do my best to answer questions you may have.
 
 <h4>Contact:</h4>
+
+[#exhibit](https://macadmins.slack.com/archives/CRDF5FRMG) on the MacAdmins Slack Channel
+
 Quentin Harouff <br>
 Email: qharouff@nebraska.edu
 
