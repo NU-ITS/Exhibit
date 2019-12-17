@@ -1,0 +1,13 @@
+site_name: Exhibit
+nav:
+    - User Guide:
+        - 'Overview': 'index.md'
+        - 'Installation': 'installation.md'
+        - 'Managed App Config': 'app-config.md'
+        - 'Content Playlist': 'playlist.md'
+    - About:
+        - 'Release Notes': 'release-notes.md'
+        - 'Known Issues': 'known-issues.md'
+        - 'Contact and Support': 'contact.md'
+        - 'Legal': 'license.md'
+theme: readthedocs
