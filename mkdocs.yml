@@ -5,6 +5,7 @@ nav:
         - 'Installation': 'installation.md'
         - 'Managed App Config': 'app-config.md'
         - 'Content Playlist': 'playlist.md'
+        - 'Demo Content': 'demo.md'
     - About:
         - 'Release Notes': 'release-notes.md'
         - 'Known Issues': 'known-issues.md'
