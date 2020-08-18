@@ -1,0 +1,5 @@
+Name,URL,Duration,UpdateInterval,StartOn,EndBy,Cache
+Exhibit01,https://github.com/NU-ITS/Exhibit/raw/master/Demo/Exhibit01.png,0:00:10,1:00:00,1/1/18 0:00,12/31/30 23:59,yes
+Exhibit02,https://github.com/NU-ITS/Exhibit/raw/master/Demo/Exhibit02.png,0:00:10,1:00:00,1/1/18 0:00,12/31/30 23:59,yes
+Exhibit03,https://github.com/NU-ITS/Exhibit/raw/master/Demo/Exhibit03.png,0:00:10,1:00:00,1/1/18 0:00,12/31/30 23:59,yes
+Exhibit04,https://github.com/NU-ITS/Exhibit/raw/master/Demo/Exhibit04.png,0:00:10,1:00:00,1/1/18 0:00,12/31/30 23:59,yes
