@@ -6,7 +6,7 @@ This software is provided "AS IS", without warranty of any kind. However, if you
 
 [#exhibit](https://macadmins.slack.com/archives/CRDF5FRMG) on the MacAdmins Slack Channel
 
-[Exhibit Support Portal](https://exhibit.atlassian.net/servicedesk/customer/portal/3) or [support@exhibit.atlassian.net](mailto://support@exhibit.atlassian.net)
+[Exhibit Support Portal](https://exhibit.atlassian.net/servicedesk/customer/portal/3) or support@exhibit.atlassian.net
 
 
 <h3>Errors and bugs</h3>
