@@ -22,7 +22,7 @@ Time (in seconds) of the image timer default. Image display time length is speci
 Boolean value set to `false` by default, override with a `true` value to hide the floating AirPlay box. <br />
 ```xml
 <key>edu.nebraska.ImageViewer.airplayViewHide</key>
-</true>
+<true/>
 ```
 ***
 
@@ -30,7 +30,7 @@ Boolean value set to `false` by default, override with a `true` value to hide th
 Boolean value set to `false` by default, override with a `true` value to hide the floating AirPlay box only when a video is shown. <br />
 ```xml
 <key>edu.nebraska.ImageViewer.airplayViewHideOnVideo</key>
-</true>
+<true/>
 ```
 ***
 
@@ -105,7 +105,7 @@ The the movement behavior of the Airplay box. The following options are applicab
 Boolean value set to `false` by default. Videos will follow the "Duration" value set in the playlist file unless overridden with a `true` value in which case, the video will show in its entirety. <br />
 ```xml
 <key>edu.nebraska.ImageViewer.playVideosInFull</key>
-</true>
+<true/>
 ```
 ***
 
@@ -113,34 +113,6 @@ Boolean value set to `false` by default. Videos will follow the "Duration" value
 Boolean value set to `false` by default, override with a `true` value to allow videos to play their audio. <br />
 ```xml
 <key>edu.nebraska.ImageViewer.playVideosWithAudio</key>
-</true>
+<true/>
 ```
 ***
-
-
-<h3>Sample App Config:</h3>
-
-```xml
-<dict>
-    <key>edu.nebraska.ImageViewer.dataURL</key>
-    <string>https://link.to.preferences.csv</string>
-    <key>edu.nebraska.ImageViewer.imageTimer</key>
-    <integer>10</integer>
-    <key>edu.nebraska.ImageViewer.airplayViewTimer</key>
-    <integer>25</integer>
-    <key>edu.nebraska.ImageViewer.dataCheckTimer</key>
-    <integer>600</integer>
-    <key>edu.nebraska.ImageViewer.airplayViewPositionX</key>
-    <integer>1354</integer>
-    <key>edu.nebraska.ImageViewer.airplayViewPositionY</key>
-    <integer>638</integer>
-    <key>edu.nebraska.ImageViewer.airplayDescription</key>
-    <string>You can cast the content of your iOS, iPadOS or macOS device to this device using Airplay! </string>
-    <key>edu.nebraska.ImageViewer.airplaySubtitle</key>
-    <string>SELECT THIS DEVICE:</string>
-    <key>edu.nebraska.ImageViewer.airplayViewMovement</key>
-    <string>Fade</string>
-    <key>edu.nebraska.ImageViewer.airplayViewHide</key>
-    <false/>
-</dict>
-```
