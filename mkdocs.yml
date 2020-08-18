@@ -10,5 +10,4 @@ nav:
         - 'Release Notes': 'release-notes.md'
         - 'Known Issues': 'known-issues.md'
         - 'Contact and Support': 'contact.md'
-        - 'Legal': 'license.md'
 theme: readthedocs
