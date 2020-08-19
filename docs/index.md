@@ -8,6 +8,12 @@ Exhibit, previously known as "MDM Image Viewer", is a managed screensaver App fo
 
 Exhibit is available for download from the [tvOS App Store](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1439027089&mt=8).
 
+.. raw:: html
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+    <iframe src="https://www.youtube.com/watch?v=jdt0uAyO-28" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+
 <h3>Features:</h3>
 
 * Run the App in single App mode and automate your processes for a zero-touch deployment.
