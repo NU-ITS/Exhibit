@@ -2,11 +2,31 @@
 
 App configuration Preferences are currently required to load the CSV file location through the `edu.nebraska.ImageViewer.dataURL` preferences key. All available keys are shown here:
 ***
-**`edu.nebraska.ImageViewer.dataURL`** ***(required)*** <br />
+**`edu.nebraska.ImageViewer.dataURL` (required)** <br />
 URL of the CSV file containing image information. There is no default option for this key and the App will not function as built without this value loaded. Your CSV file must be available over https.
 ```xml
 <key>edu.nebraska.ImageViewer.dataURL</key>
 <string>https://link.to.preferences.csv</string>
+```
+***
+**`edu.nebraska.ImageViewer.dataType`**  <br />
+Set this value to "csv" for Google Drive support or for situations where a CSV file does not include the .csv extension in the url.
+
+```xml
+<key>edu.nebraska.ImageViewer.dataType</key>
+<string>csv</string>
+```
+***
+**`edu.nebraska.ImageViewer.deviceName`** <br />
+In tvOS 16, Apple requires an App entitlement for accessing the user-assigned device name instead of the generic device name. Exhibit does not yet have this entitlement and therefore the name of the device will always show as "Apple TV". This preference value allows the setting of device name from MDM.
+
+Jamf Pro and Jamf School both support variables in App Config so you can pass the name of the device to the Apple TV. You may need to check with your MDM provider to see if they support passing variables through App Config.
+
+Jamf Pro: `$DEVICENAME`
+Jamf School: `%Name%`
+```xml
+<key>edu.nebraska.ImageViewer.deviceName</key>
+<string>$DEVICENAME</string>
 ```
 ***
 
